@@ -1,29 +1,23 @@
-# Welcome to your Lovable project
+# JustLatent — India's Got Latent Web App
 
-This project was built with [Lovable](https://lovable.dev).
+An ultra-sleek, premium web application for streaming episodes, bonus clips, and BTS content of **India's Got Latent**.
 
-## Build with Lovable
+## Features
+- **Zero-Flicker Hero Player**: Instant stream playback and feed synchronization.
+- **Dynamic Episode Player**: High-definition video player with YouTube-style controls and episode navigation.
+- **PWA Ready**: Mobile-optimized web app with installable app prompt.
+- **Vercel Analytics**: Built-in real-time traffic and visitor metrics.
+- **Proxy Stream Manager**: Auto-failover and proxy URL updating.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Local Development
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+npm install
 npm run dev
 ```
 
-## Built with
+## Production Build
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+```bash
+npm run build
+```
