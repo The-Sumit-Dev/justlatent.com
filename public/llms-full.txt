@@ -1,0 +1,55 @@
+# JustLatent Full Documentation & Catalogue Context (justlatent.com)
+
+Welcome to JustLatent (https://justlatent.com/), the comprehensive, community-driven free archive for the viral comedy show **India's Got Latent**, hosted by Samay Raina.
+
+## About the Platform
+JustLatent provides high-definition video streaming for all released episodes of India's Got Latent, including member-exclusive bonus episodes, behind-the-scenes footage, and deleted clips.
+
+- Primary Domain: https://justlatent.com/
+- Contact Support: hello@justlatent.com
+- Pricing: Free community service, no paywall, no registration required.
+
+## Season 2 Episode Catalogue
+- **Episode 7**: ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra & Kaustubh Agarwal
+  URL: https://justlatent.com/season-2/episodes/07
+- **Episode 6**: ft. Rakhi Sawant, Ashneer Grover & Kushagra Srivastava
+  URL: https://justlatent.com/season-2/episodes/06
+- **Episode 5**: ft. Orry, Archana Puran Singh, Sharon Verma & Nishant Suri
+  URL: https://justlatent.com/season-2/episodes/05
+- **Episode 4**: ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu & Rahul Dua
+  URL: https://justlatent.com/season-2/episodes/04
+- **Episode 3**: ft. Raghu Ram, Vishal Dadlani, Tanmay Bhat & Yashraj
+  URL: https://justlatent.com/season-2/episodes/03
+- **Episode 2**: ft. Harssh Limbachiyaa, Kiku Sharda & Chandan Prabhakar
+  URL: https://justlatent.com/season-2/episodes/02
+- **Episode 1**: ft. Alia Bhatt, Sharvari & Aashish Solanki
+  URL: https://justlatent.com/season-2/episodes/01
+
+## Season 2 Bonus Episodes & Extras
+- **S2 Bonus EP 4**: ft. Ayushmann Khurrana, Suhani Shah, Kullu & Rajat Sood
+  URL: https://justlatent.com/season-2/bonus/06
+- **S2 Bonus EP 3**: ft. Deepak Kalal, Ravi Gupta & Agu Stanley
+  URL: https://justlatent.com/season-2/bonus/05
+- **S2 Bonus EP 2**: ft. Badshah, Sourav Joshi, Harssh Limbachiyaa & Rajat Sood
+  URL: https://justlatent.com/season-2/bonus/03
+- **S2 Bonus EP 1**: ft. Raghav Juyal, Munawar, Niharika NM & Rohan Joshi
+  URL: https://justlatent.com/season-2/bonus/01
+- **Behind The Scenes**: https://justlatent.com/season-2/bts/04
+
+## Season 1 Catalogue Summary
+- **Episode 12 (Finale)**: ft. Rakhi Sawant & Ashish Solanki
+  URL: https://justlatent.com/season-1/episodes/12
+- **Episode 11**: ft. Bharti Singh & Haarsh Limbachiyaa
+  URL: https://justlatent.com/season-1/episodes/11
+- **Episode 10**: ft. Raghu Ram & Tanmay Bhat
+  URL: https://justlatent.com/season-1/episodes/10
+- **Episode 1**: ft. Raftaar
+  URL: https://justlatent.com/season-1/episodes/01
+
+## API Documentation
+1. `GET /api/feed`
+   Returns real-time JSON array of current video streams and scraped episode metadata.
+2. `GET /api/stream?id={okcdnId}`
+   Resolves high-quality 720p and 480p CDN video stream URLs for playback.
+3. `GET /api/active-domain`
+   Returns the current active CDN proxy domain URL.

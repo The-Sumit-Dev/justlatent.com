@@ -1,0 +1,17 @@
+{
+  "name": "India's Got Latent — JustLatent",
+  "short_name": "JustLatent",
+  "description": "Watch India's Got Latent full episodes, bonus clips, and behind the scenes free on JustLatent.com",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070709",
+  "theme_color": "#070709",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

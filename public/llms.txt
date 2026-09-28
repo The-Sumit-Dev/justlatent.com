@@ -1,0 +1,19 @@
+# JustLatent (justlatent.com)
+
+> JustLatent is an unofficial, community-driven free video streaming archive for "India's Got Latent", an unfiltered comedy talent show created by Samay Raina.
+
+## Core Information
+- Website: https://justlatent.com/
+- Contact Email: hello@justlatent.com
+- Content: Full episodes, Bonus Episodes, Behind-The-Scenes (BTS), Deleted Scenes.
+- Access: 100% Free, no paywalls, no subscription, no ads.
+
+## Key Seasons & Top Content
+- Season 2 Episodes: https://justlatent.com/season-2/episodes/07 (Featuring Nawazuddin Siddiqui, Bhuvan Bam, Rakhi Sawant, Ashneer Grover, Karan Aujla, Alia Bhatt)
+- Season 2 Bonus Clips: https://justlatent.com/season-2/bonus/06 (Featuring Ayushmann Khurrana, Deepak Kalal, Badshah, Raghav Juyal)
+- Season 1 Episodes: https://justlatent.com/season-1/episodes/12 (Featuring Rakhi Sawant, Bharti Singh, Raghu Ram, Raftaar)
+
+## API Reference
+- Feed API: https://justlatent.com/api/feed (Returns okcdn.json video catalogue array)
+- Stream API: https://justlatent.com/api/stream?id={okcdnId} (Returns video stream URLs for playback)
+- Domain Sync: https://justlatent.com/api/active-domain (Returns active CDN proxy domain)
